@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 100px;
+        width: 200px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div>
+      <form> 
+        <table>
+         <!-- <tr>
+            <td>link: </td>
+            <td><input type='text' name='link' id ='link'/></td>
+          </tr>-->
+          <tr>
+            <td>Surname: </td>
+            <td><input type='text' name='name' id ='txtSurname'/></td>
+          </tr>
+          <tr>
+            <td>Given Name: </td>
+            <td><input type='text' name='given_name' id ='txtGivenName'/></td>
+          </tr>
+          <tr>
+            <td>Title: </td>
+            <td><input type='radio' name='title' value='mr' id ='title_mr'/> Mr
+            <input type='radio' name='title' value='mrs' id='title_mrs'/> Mrs
+            <input type='radio' name='title' value='miss' id='title_miss'/> Miss</td>
+          </tr>
+          
+          <tr>
+            <td>Birthday</td>
+            <td>
+              D <input type = 'text' name = 'birthday_day' id='DOBDay'></select><br/>
+              M <input type = 'text' name = 'birthday_month' id='DOBMonth'></select><br/>
+              Y <input type = 'text' name = 'birthday_year' id='DOBYear'></select>
+            </td>
+          </tr>
+          <tr>
+            <td>Mobile: </td>
+            <td><input type='text' name='mobile' id ='txtContactNo'/></td>
+          </tr>
+          <tr>
+            <td>Email: </td>
+            <td><input type='text' name='email' id ='txtEmail'/></td>
+          </tr>
+          <tr>
+            <td><input type="submit" id='submit_button'/></td>
+          </tr>
+        </table>
+
+      </form>
+    </div>
+
+    <div>
+      <br/><br/>
+      <table>
+      <tr>
+        <td><input type='button' value="Profile 1" id='profile_1' /></td>
+        <td><input type='button' value="Profile 2" id='profile_2' /></td>
+        <td><input type='button' value="Profile 3" id='profile_3' /></td>
+        <td><input type='button' value="Profile 4" id='profile_4' /></td>
+        <td><input type='button' value="Profile 5" id='profile_5' /></td>
+      </tr>
+      </table>
+    </div>
+
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="popup.js"></script>
+    <script src="get_from_options.js"></script>
+  </body>
+</html>
